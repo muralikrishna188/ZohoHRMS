@@ -1,0 +1,13 @@
+prefix = "demo"
+location = "East US"
+admin_password = "ChangeMe123!"
+vm_size = "Standard_B1s"
+instance_count = 1
+address_space = ["10.0.0.0/16"]
+
+# optional: override subnets
+# subnets = {
+#   web = { cidr = "10.0.1.0/24", type = "web" }
+#   app = { cidr = "10.0.2.0/24", type = "app" }
+#   db  = { cidr = "10.0.3.0/24", type = "db" }
+# }
