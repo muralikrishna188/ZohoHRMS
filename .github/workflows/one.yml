@@ -1,0 +1,11 @@
+on:
+ label:
+    types:
+        - created
+
+
+jobs:
+  print_helo:
+    runs-on: ubuntu-latest  
+    steps:
+        - run: echo "DevSecOps is awesome!" 
